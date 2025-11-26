@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background-color: #fff7f0;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #5c3d2e;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.carrito {
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffdcc2, #ffe9d6);
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.btn-primario {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5c3d2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* SECCIÓN PRODUCTOS */
+.productos {
+  padding: 40px 20px;
+}
+
+.productos h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin-bottom: 5px;
+}
+
+.precio {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn-agregar {
+  padding: 8px 15px;
+  background-color: #5c3d2e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* NOSOTROS Y CONTACTO */
+.nosotros, .contacto {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros h2, .contacto h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.nosotros p, .contacto p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #5c3d2e;
+  color: #fff;
+  margin-top: 30px;
+}
