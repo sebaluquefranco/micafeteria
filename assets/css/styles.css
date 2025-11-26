@@ -139,3 +139,43 @@ footer {
   color: #fff;
   margin-top: 30px;
 }
+
+/* Sección de Promociones */
+.promos {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  background: #fff5ed;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.promos h2 {
+  font-size: 1.8rem;
+  color: #5c3d2e;
+  margin-bottom: 10px;
+}
+
+.promos p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Botón de la sección Promociones */
+.btn-promo {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5c3d2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.btn-promo:hover {
+  background-color: #4a3023;
+  transform: scale(1.05);
+}
