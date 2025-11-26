@@ -179,3 +179,14 @@ footer {
   background-color: #4a3023;
   transform: scale(1.05);
 }
+
+/* Mejora diseño de las tarjetas */
+.card {
+  border: 1px solid #e3d2c5;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
